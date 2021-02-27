@@ -1,0 +1,33 @@
+.couverture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.deplacer{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -130px;
+    background-color: gray;
+    border-radius: 50%;
+    opacity: 0.6;
+    
+    
+}
+.info{
+    background-color: red;
+    .buttonp{
+        margin-left: 85%;
+      }
+}
+
+h2{
+     margin-left: 10px;
+     padding-top: 10px;
+
+}
+p{
+    margin-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 1.1;
+}

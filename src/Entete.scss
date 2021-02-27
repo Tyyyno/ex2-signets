@@ -1,0 +1,35 @@
+.Entete {
+    position: sticky;
+    top: 0;
+    height: 40px;
+    margin: 0px;
+    padding: 20px;
+    color: #fff;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    width: 100%;
+
+   // .logo{
+   //     margin-left: 30px;
+   // }
+  //  .avatar{
+   //     margin-right: 30px;
+  //      margin-left: auto;
+  //  }
+  div:last-of-type{
+      margin-left: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 10em;
+      margin-right: 2%;
+    
+  }
+    div:last-of-type>img{
+      
+        border-radius: 50%;
+        margin-left: 10%;
+    }
+}
